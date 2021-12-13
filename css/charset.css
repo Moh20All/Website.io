@@ -44,7 +44,11 @@ nav ul li a{
 }
 nav ul li a:hover{
   color: #f53b57;
-  transition: .4s;
+  transition: .3s;
+  border: white 2px solid;
+  padding: 10px;
+  border-radius: 35px;
+  
 }
 .content{
   position: absolute;
@@ -61,4 +65,8 @@ h4{
   color: #f3ab4d;
   letter-spacing: 2px;
   font-size: 20px;
+}
+h3{
+  color: white;
+  font-size: 13px;
 }
